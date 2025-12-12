@@ -1,0 +1,3 @@
+whoami > whoami.txt
+ps | sed '1d' > ps.txt
+wc -c ps.txt | cut -d ' ' -f 1
