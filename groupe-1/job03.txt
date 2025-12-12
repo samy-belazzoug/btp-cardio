@@ -1,0 +1,8 @@
+echo "Ceci est un fichier test." > groupe-1.md
+chmod 644 groupe-1.md
+mkdir test0
+chmod 500 test0
+touch test1
+chmod 751 test1
+ln -s test0 test2
+ls -l
